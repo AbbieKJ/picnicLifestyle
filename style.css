@@ -164,7 +164,7 @@ box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
   border: none;
   text-align: center;
   overflow: hidden;
-  background-image: url("/images/pink_shape-removebg-preview.png");
+  background-image: url("pink_shape-removebg-preview.png");
   min-height: 25rem;
   min-width: 25rem;
   max-width: 80rem;
