@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="script" href="script.js" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Picnic Lifestyle | Handmade Jewellery</title>
+  </head>
+
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="main-nav">
+      <ul class="main-nav-items">
+        <li class="push">
+          <img
+            class="nav-logo"
+            src="logo-nobg.png"
+            alt="Picnic Lifestyle Logo" 
+          />
+        </li>
+        <li><a href="/index.html" class="nav-links nav-home-link">HOME</a></li>
+        <li><a href="#" class="nav-links nav-styles">STYLES</a></li>
+        <li><a href="/about-us.html" class="nav-links">ABOUT US</a></li>
+      
+     <li> <button
+        class="btn btn-primary btn-nav bg-#d4e09b;"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        
+      >
+        SHOP ALL
+      </button></li>
+    </ul>
+
+      <div
+        class="main-nav-items offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">SHOP ALL</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="nav-popoutlist">
+            <li>
+              <a href="index.html" class="home-popout">Home</a>
+            </li>
+            <li>
+              <a href="#" class="shop-all-popout">Shop all</a>
+            </li>
+            <li>
+              <a href="#" class="spring-edit-popout">Spring Edit</a>
+            </li>
+            <li>
+              <a href="#" class="bestsellers-popout">Bestsellers</a>
+            </li>
+            <li>
+              <a href="#" class="styles-popout">Styles</a>
+            </li>
+            <li>
+              <a href="#" class="inspiration-popout">Inspiration</a>
+            </li>
+            <li>
+              <a href="#" class="about-us-popout">About us</a>
+            </li>
+            <li>
+              <a href="#" class="reviews-popout">Customer Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="hero">
+      <img
+        src="/images/PICNIC LIFESTYLE.png"
+        alt="Picnic Lifestyle hero image"
+        class="hero-img"
+      />
+      <button class="hero-btn">SHOP NOW</button>
+    </main>
+
+    <section class="shop-grid">
+      <div class="cards">
+        <!-- <img src="/images/pink shape.png" alt="pink shape with wavy outline"> -->
+      <div class="sg-new-arrivals card">
+        <h2 class="sg-card-txt">NEW ARRIVALS</h2>
+        <button class="sg-btn sgsa-btn"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+        </svg>
+        </button>
+      </div>
+      </div>
+      <div class="cards">
+      <div class="sg-bestsellers card">
+        <h2 class="sg-card-txt">BESTSELLERS</h2>
+        <button class="sg-btn sgsa-btn"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+        </svg>
+        </button>
+      </div>
+      </div>
+      <div class="cards">
+      <div class="sg-shop-all card">
+        <h2 class="sg-card-txt">SHOP ALL</h2>
+        <button class="sg-btn sgsa-btn"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+        </svg>
+        </button>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="se-wrapper"><div class="spring-edit-section">
+      <div class="spring-edit-left">
+        <img
+          class="spring-edit-img"
+          src="images/woman with gold jewellery.jpg"
+          alt="Woman wearing gold jewellery"
+          
+        />
+      </div>
+      <div class="spring-edit-right">
+        <h2 class="spring-edit-txt">SPRING EDIT</h2>
+        <button class="spring-edit-btn">SHOP NOW</button>
+      </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="testimonial-txt d-block w-100">
+            "I love my earrings from Picnic Lifestyle! They're really lightweight
+            and delivery was fast. I always get compliments when I'm wearing
+            them, which is always fun. I'd recommend!"
+          </p>
+          <p class="testimonial-name">Paige D</p>
+        </div>
+        <div class="carousel-item">
+          <p class="testimonial-txt d-block w-100">
+            "Beautiful jewellery clearly made with love! I can't wait for the
+            warmer weather so I truly can live my best picnic lifestyle!"
+          </p>
+          <p class="testimonial-name">Lauren B</p>
+        </div>
+        <div class="carousel-item">
+          <p class="testimonial-txt d-block w-100">
+            "Such amazing customer service! I'd accidentally put in the wrong
+            address and they changed it for me no problem. Really made me feel
+            valued as a customer and I've since been back for more and more
+            stunning jewellery!"
+          </p>
+          <p class="testimonial-name">Gemma K</p>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  </body>
+
+  <footer>
+    <div class="email-signup">
+      <h4 class="email-text">Sign up for our newsletter</h4>
+      <p class="email-p">
+        Want to stay in the loop about new releases and get exlcusive discount
+        codes? Enter your email below to get 10% off your first purchase.
+      </p>
+      <div class="footer-input">
+      <input class="email-holder" type="text" placeholder="Email address" />
+      <input class="email-submit" type="submit" class="submit-btn" value="Submit" />
+    </div>
+  </div>
+
+    <div class="footer-nav-container">
+      <ul class="footer-nav">
+        <li><a href="#" class="unit-1 shop-all-link">Shop All</a></li>
+        <li><a href="#" class="unit-2 about-us-link">About Us</a></li>
+        <li><a href="#" class="unit-3 faq-link">FAQs</a></li>
+        <li><a href="#" class="unit-4 shipping-link">Shipping and Returns</a></li>
+        <li><a href="#" class="unit-5 contact-us-link">Contact us</a></li>
+        <li><a href="#" class="unit-6 careers-link">Careers</a></li>
+        <li><a href="#" class="unit-7 terms-link">Terms and Conditions</a></li>
+        <li><a href="#" class="unit-8 priv-link">Privacy Policy</a></li>
+        <li><a href="#" class="unit-9 site-map-link">Site Map</a></li>
+      </ul>
+    </div>
+    <p class="copyright">Picnic Lifetyle 2023, produced by Abbie Kennard-Jones for Code First Girls</p>
+  </footer>
+</html>
